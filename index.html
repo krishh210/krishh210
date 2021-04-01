@@ -7,9 +7,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>2nd portfolio</title>
+        <title>Krishna-portfolio.me</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/jpg" href="images/avatar.svg"/>
         <link rel="stylesheet" href="attempt.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
@@ -28,20 +29,16 @@
                 <div class="nav-button" tabindex="3" id="contact-btn"><span class="material-icons-round">
                     mail_outline
                     </span>Contact</div>
-                <!--<ul>
-                    <li><img id="scroll-skills" class="icons" src="tool.svg" width="25px" height="25px"><a href=#>Skills</a></li>
-                    <li><img class="icons" src="user.svg" width="25px" height="25px"><a href="#about-me">About me</a></li>
-                    <li><img class="icons" src="mail.svg" width="25px" height="25px"><a href="">Contact</a></li>
-                </ul>-->
+                
             </nav>
-            <img src="blob1.svg" id="wave1" height="70%" class="waves">
-            <img src="blob3.svg" id="wave2" class="waves">
-            <img src="blob4.svg" id="wave3" class="waves">
+            <img src="images/blob1.svg" id="wave1" height="70%" class="waves">
+            <img src="images/blob3.svg" id="wave2" class="waves">
+            <img src="images/blob4.svg" id="wave3" class="waves">
             <!--<img src="blob4.svg" id="wave4" class="waves">
             <img src="blob5.svg" id="wave5" class="waves">-->
             <div class="landing-page-container">
                 <div class="landing-text-container">
-                    <img src="avatar.svg" id="avatar">
+                    <img src="images/avatar.svg" id="avatar">
                     <!--<div class="text-bg"></div>-->
                     <div class="landing-text">
                         <!--<span>
@@ -61,17 +58,17 @@
                         
                         <span class="material-icons-round">code</span>
                         <p><b>Programmer</b></p>
-                        <img src="color-blob1.svg">
+                        <img src="images/color-blob1.svg">
                     </div>
                     
                     <div class="floating-box" id="paint-box">
-                        <img src="color-blob2.svg">
+                        <img src="images/color-blob2.svg">
                         <span class="material-icons-round">palette</span>
                         <p><b>Painter</b></p>
                     </div>
                     <div class="floating-box" id="physics-box">
                         <div id="">
-                            <img src="color-blob3.svg">
+                            <img src="images/color-blob3.svg">
                             <span class="material-icons-round">science</span>
                             <p><b>Physics<br>enthusiast</b></p>
                         </div>
@@ -88,15 +85,15 @@
         
         <div id="skills">
             <div class="box">
-                <p id="skill-heading">Skills</p>
+                <p class="page-heading">Skills</p>
                 <div id="round-bottom"></div>
             </div>
             
             
-            <img id="skill-blob" src="skill-blob.svg" > <!--width="70%" height="70%">-->
-            <img id="skill-img" src="skill-img.svg" width="50%" height="50%">
+            <!--<img id="skill-blob" src="skill-blob.svg" > width="70%" height="70%">-->
+            <img id="skill-img" src="images/skill_img.svg" width="50%" height="50%">
             
-            <div class="skill-row2"> </div>
+            
             <div class="skill-row1">
                 <!--<div class="skill-row">-->
                     <p class="my-skills">Html/Css</p>
@@ -106,15 +103,31 @@
                     <p class="my-skills">Python</p>
                     <p class="my-skills">GIMP</p>
                     <p class="my-skills">Linux</p>
-                    <p class="my-skills">Bash shell</p>
+                    <p class="my-skills">Shell scripting</p>
                     <p class="my-skills">Apache</p>
                     <p class="my-skills">Git</p>
                     <p class="my-skills">Github</p>
                 <!--</div>-->
                 
             </div>
+            
+            <div id="btn-container">
+                <input type="button" value="My resume" class="cv-btn" >
+            </div>   
+            
+            
             <div class="skill-info-popover">
-                <div id="progress-bar"></div>
+                <img src="images/x.svg">
+                <p id="popover-heading"></p>
+                <div id="skill-level">
+                    <div class="progress-box">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <span id="level">beginner</span>
+                </div>
+                
+                <p id="skill-context"></p>
+                
             </div>
                 
             
@@ -122,43 +135,46 @@
         </div>
         <div id="about-me">
             <div class="box">
-                <p id="about-me-heading">About Me</p>
+                <p class="page-heading">About Me</p>
+                <div id="round-bottom"></div>
             </div>
             
-            <img id="about-me-img" src="about-me1.svg" width="55%" height="55%">
-            <img id="about-me-blob" src="about-me-blob.svg" >
+            <img id="about-me-img" src="images/about_me.svg" width="55%" height="55%">
+            <!--<img id="about-me-blob" src="about-me-blob.svg" >-->
+            <div class="about-me-context">
+                <p>I am currently a student of National Institute of Open Schooling (NIOS), enrolled in the senior secondary course equivalent to 12th science (cbse). 
+                    <br><br>I discovered my passion for coding when I realized it's full potential and all the things we can achieve with it. Since then I have been diving into all the 
+                    wonderful realms of computer science from networking with GNU/Linux to using frameworks to make full class desktop apps with python but mainly 
+                    I love developing for the web. Now I spend a lot of my time trying to learn and familiarize myself with latest technologies used in web development.
+                    <br> <br>Besides coding, I also have a hobby of making portrait sketches and paintings in many mediums and keen interest in studying physics 
             
             
 
         </div>
         <div id="contact">
             <div class="box">
-                <p id="contact-heading">Contact</p>
+                <p class="page-heading">Contact</p>
+                <div id="round-bottom"></div>
             </div>
             <div class="contact-container-main">
                 <div class="contact-container">
-                    <div class="contact-box" id="mail">
-                        <img src="mail.svg"><p>Mail</p>
-                    </div>
-                    <div class="contact-box" id="github">
-                        <img src="github.svg"><p>Github</p>
-                    </div>
-                    <div class="contact-box" id="linkedin">
-                        <img src="linkedin.svg"><p>LinkedIn</p>
-                    </div>
+                    <a href="mailto:krishnamotwani210@gmail.com"><div class="contact-box" id="mail">
+                        <img src="images/mail.svg"><p>Mail</p>
+                    </div></a>
+                    <a href="https://github.com/krishh210"><div class="contact-box" id="github">
+                        <img src="images/github.svg"><p>Github</p>
+                    </div></a>
+                    <a href="#"><div class="contact-box" id="linkedin">
+                        <img src="images/linkedin.svg"><p>LinkedIn</p>
+                    </div></a>
                 </div>
             </div>
+            <img src="images/contact-me.svg" id="contact-img">
         </div>
         
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!--<script type="text/javascript">
-        $(document).ready(function() {
-            $('p').click(function() {
-                $(document.body).animate({scrollTop: 0}, 100);
-            });
-        });
-        </script>-->
+        
         <script>
         $(document).ready(function(){
             $("b").click(function(what){
@@ -205,10 +221,7 @@
             })
             $('div.nav-button').click(function(){
                 var clicked = $(this).attr('id');
-               /* $('div.nav-button').css('color', 'black')
-                $('div.nav-button').css('background', 'none')
-                $(this).css('background', '#7f27ff')
-                $(this).css('color', 'white')*/
+               
                 if (clicked == 'skill-btn') {
                     $('html,body').animate({scrollTop: $("#skills").offset().top},'fast');
                 } else if (clicked == 'about-me-btn') {
@@ -217,45 +230,72 @@
                     $('html,body').animate({scrollTop: $("#contact").offset().top},'fast');
                 }
             })
-            /*$(window).scroll(function() {
-                $('#skill-btn').css('background', 'none')
-                    $('#skill-btn').css('color', 'black')
-                    $('#about-me-btn').css('background', 'none')
-                    $('#about-me-btn').css('color', 'black')
-                    $('#contact-btn').css('background', 'none')
-                    $('#contact-btn').css('color', 'black')
-            })*/
+            
             
             
             $('p.my-skills').click(function(){
                 var selected = $(this).text();
-                var html = "I have sound knowledge of various html tags and cssibutes from the little used to ones that are used often. As css is a vastly used and constantly developing technolog"
-                /*$('div.skill-info-popover').animate({visibility:visible});*/
-
+                var html = "I have sound knowledge of various html tags and attributes from the little used to ones that are used often. In css land, I am aware of all the standard practises from managing layout for a responsive design using grid and flexbox to building fluid and performant animations using transitions, animations and clip-path properties. As I am already familiar to many css properties, I believe working with various frameworks like tailwind and bootstrap gets much easier. So far, for testing websites I only use chrome web inspector because firebug is only worth using when a lot of javascript is used.. "
+                var javascript = "The basics of javascript like variable, scope, objects, arrays, loops, functions, conditionals and DOM are all covered. While I am still learning the more advanced concepts like OOP, asynchronous js and polymorphism. Among the vast number of js libraries, I have used jQuery. Working of various jQuery methods, animations and event handlers and how they are used to interact with html and css are thoroughly explored by me. "
+                var python = "Year long experience with various modules, libraries and APIs. Some of these are pygal and matplotlib for data visualization, beautifulsoup and selenium for web scraping, googleNews api for news fetching, GTK toolkit to build desktop app, layout building and full hands on with object oriented programming. Check out my work in progress project. "
+                var gimp = "GIMP is a free and open source cross-platform image editing program that is pretty close to photoshop in terms of features. Having used it for a while I can perform basic image-editing tasks like working with layers, cropping, rotating, applying filters, adding typography, setting lightning and color effects including exposure, white balance, contrast and saturation. Other than that I have also worked with SVGs and still currently exploring this skill."
+                var linux = "Linux should be rightly called GNU/Linux which is the OS, Linux is just the kernel. Actually there are many types of OSes called distributions under GNU/linux. Each is a combination of package-manager, desktop environment and many other things. I have used almost all the major distributions available, be it a rolling release or a long term support. I am also familiar with many FOSS apps of both CLI and GUI that work on GNU/Linux."
+                var shell = "There are many shells available out there like fish, zsh and bash. I personally use zsh as it allows plugins and themes that allow auto-completion and boost productivity. Scripting is very easy for me as it's just a combination of linux commands which I have gotten used to overtime"
+                var git = "I actively use git from CLI to manage my projects, thus all the git commands are on my fingertips. I have used all the features of git like branching/forking, merging pull requests and cloning repositories. "
+                var github = "The popular cloud based git hosting service is pretty much a GUI of git but with many extra features that even allow some level of automation. Although I don't use these advanced features as I am the sole developer of my projects, I am familiar with some of them like free static site hosting and markdown, which is used to create readme files or user description. "
                 $('#popover-heading').text(selected)
                 if (selected == 'Html/Css') {
                     $('#progress-bar').delay(200).animate({width: "65%"}, {duration: 500, easing: "swing"});
                     $('#skill-context').text(html)
+                    $('#level').text('Novice')
+                    $('#level').css('color', '#e5b705')
                 } else if (selected == 'Javascript') {
-                    $('#progress-bar').delay(200).animate({width: "55%"}, {duration: 500, easing: "swing"});
+                    $('#progress-bar').delay(200).animate({width: "40%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(javascript)
+                    $('#level').text('Beginner')
+                    $('#level').css('color', '#e50c05')
                 } else if (selected == 'PHP') {
                     $('#progress-bar').delay(200).animate({width: "80%"}, {duration: 500, easing: "swing"});
+                    $('#level').text('Intermediate')
+                    $('#level').css('color', '#23ce00')
                 } else if (selected == 'MySQL') {
                     $('#progress-bar').delay(200).animate({width: "80%"}, {duration: 500, easing: "swing"});
+                    $('#level').text('Intermediate')
+                    $('#level').css('color', '#23ce00')
                 } else if (selected == 'Python') {
                     $('#progress-bar').delay(200).animate({width: "70%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(python)
+                    $('#level').text('Intermediate')
+                    $('#level').css('color', '#23ce00')
                 } else if (selected == 'GIMP') {
                     $('#progress-bar').delay(200).animate({width: "35%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(gimp)
+                    $('#level').text('Beginner')
+                    $('#level').css('color', '#e50c05')
                 } else if (selected == 'Linux') {
                     $('#progress-bar').delay(200).animate({width: "80%"}, {duration: 500, easing: "swing"});
-                } else if (selected == 'Bash shell') {
-                    $('#progress-bar').delay(200).animate({width: "40%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(linux)
+                    $('#level').text('Intermediate')
+                    $('#level').css('color', '#23ce00')
+                } else if (selected == 'Shell scripting') {
+                    $('#progress-bar').delay(200).animate({width: "45%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(shell)
+                    $('#level').text('Novice')
+                    $('#level').css('color', '#e5b705')
                 } else if (selected == 'Apache') {
-                    $('#progress-bar').delay(200).animate({width: "80%"}, {duration: 500, easing: "swing"});
+                    $('#progress-bar').delay(200).animate({width: "65%"}, {duration: 500, easing: "swing"});
+                    $('#level').text('Novice')
+                    $('#level').css('color', '#e5b705')
                 } else if (selected == 'Git') {
                     $('#progress-bar').delay(200).animate({width: "80%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(git)
+                    $('#level').text('Advanced')
+                    $('#level').css('color', '#199500')
                 } else if (selected == 'Github') {
                     $('#progress-bar').delay(200).animate({width: "85%"}, {duration: 500, easing: "swing"});
+                    $('#skill-context').text(github)
+                    $('#level').text('Advanced')
+                    $('#level').css('color', '#199500')
                 }
             });
             
