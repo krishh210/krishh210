@@ -646,6 +646,9 @@ div.about-me-context {
     font-size: 1.4em;
     padding: 8px;
 }
+div.about-me-context p {
+    margin-top: 0;
+}
 .about-me-context::-webkit-scrollbar {
     background: #0000001a;
     width: 10px;
