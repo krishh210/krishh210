@@ -383,9 +383,6 @@ div.box {
     right: 0;
     width: 80%;
     height: 80%;
-    /*top: 8vh;
-    margin-left: -8vw;
-    left: -15vw;*/
     z-index: 5;
 }
 #skill-img {  
@@ -560,7 +557,7 @@ div.progress-bar {
     /*margin-left: 25px;*/
 }
 #skill-context {
-    height: 55%;
+    height: 50%;
     font-family:'Nunito', sans-serif;
     font-size: 1.5rem;
     padding: 10px;
